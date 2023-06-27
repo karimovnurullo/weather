@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@font-face {
+	font-family: "Ego";
+	src: url("../fonts/Ego-Regular.woff2");
+}
+
+@font-face {
+	font-family: "Ego Outline";
+	src: url("../fonts/Ego-Outline.woff2");
+}
+
+@font-face {
+	font-family: "Arial Rounded";
+	src: url("../fonts/Arial-Rounded.woff2");
+}
+
+@font-face {
+	font-family: 'Associate Sans';
+	src: url("../fonts/AssociateSans-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Concord W00 Regular';
+	src: url("../fonts/Concord-W00-Regular.woff2");
+}
+
+@font-face {
+	font-family: "Factor A";
+	src: url("../fonts/FactorAMedium-Regular.woff2");
+}
+
+@font-face {
+	font-family: 'Gina';
+	src: url("../fonts/Gina-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Nord';
+	src: url("../fonts/Nord-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Outfit';
+	src: url("../fonts/Outfit-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Outfit Extra Bold';
+	src: url("../fonts/Outfit-ExtraBold.woff2");
+}
+
+@font-face {
+	font-family: 'PF Centro Sans Pro';
+	src: url("../fonts/PFCentroSansPro-Black.woff2");
+}
+
+@font-face {
+	font-family: 'Chillax';
+	src: url("../fonts/Chillax-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Clash Display';
+	src: url("../fonts/ClashDisplay-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Technor';
+	src: url("../fonts/Technor-Regular.woff2");
+}
+
+@font-face {
+	font-family: 'Author';
+	src: url("../fonts/Author-Medium.woff2");
+}
+
+@font-face {
+	font-family: 'Pally';
+	src: url("../fonts/Pally-Medium.woff2");
+}
+
+// ----------------------------------------------------------------
+
+
+:root {
+	--font-ego: "Ego";
+	--font-ego-outline: "Ego Outline";
+	--font-arial-rounded: "Arial Rounded";
+	--font-poppins: "Poppins";
+	--font-inter: "Inter";
+	--font-associate: "Associate Sans";
+	--font-concord: "Concord W00 Regular";
+	--font-nord: "Nord";
+	--font-outfit: "Outfit";
+	--font-outfit-bold: "Outfit Extra Bold";
+	--font-centro: "PF Centro Sans Pro";
+	--font-chillax: "Chillax";
+	--font-clash-display: "Clash Display";
+	--font-technor: "Technor";
+	--font-author: "Author";
+	--font-pally: "Pally";
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 13px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #263238;
+	border: 3px solid #fff;
+}
+
+
+#root {
+	color: #B4B5B6;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	font-family: var(--font-pally), sans-serif;
+	background-color: rgb(9, 109, 102);
+
+}
